@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <form>
+          <div style="display: flex; justify-content: center;">
+            <h2>Cálculo de Frete</h2>
+          </div>
+          <div>
+            <h3>Nome:</h3>
+            <input id="inputNome" type="text" />
+          </div>
+          <div>
+            <h3>Valor do pedido:</h3>
+            <input id="inputValorDoPedido" type="text" />
+          </div>
+          <div>
+            <h3>Estado:</h3>
+            <select name="" id="selectEstado">
+              <option value="AM">AM</option>
+              <option value="ES">ES</option>
+              <option value="GO">GO</option>
+              <option value="MS">MS</option>
+              <option value="PR">PR</option>
+              <option value="RS">RS</option>
+              <option value="SC">SC</option>
+              <option value="SP">SP</option>
+            </select>
+          </div>
+          <div class="divBtn">
+            <button id="botao" type="button">Enviar</button>
+          </div>
+
+          <h3>Nome: <span id="spanNome"></span></h3>
+          <h3>Valor do pedido: <span id="spanValor"></span></h3>
+          <h3>Estado: <span id="spanEstado"></span></h3>
+        </form>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="./js/start.js"></script>
+  </body>
+</html>
